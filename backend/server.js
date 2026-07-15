@@ -12,6 +12,9 @@ connectDB();
 const app = express();
 app.use(express.json());
 app.use(cors());
+app.get("/", (req, res) => {
+  res.send("Maitri Ayurveda Backend is Running 🚀");
+});
 
 app.use("/api/auth", authRoutes);
 app.use("/api/appointments", appointmentRoutes);
