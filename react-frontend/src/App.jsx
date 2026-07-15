@@ -1,4 +1,4 @@
-import ThankYou from "./pages/ThankYou";
+import Thankyou from "./pages/Thankyou";
 import { bookAppointment } from "./services/appointmentService";
 import { Link, Routes, Route, useNavigate } from "react-router-dom";
 import Login from "./pages/login";
