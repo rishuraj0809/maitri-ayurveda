@@ -748,7 +748,7 @@ const navigate = useNavigate();
 
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
-<Route path="/thankyou" element={<ThankYou />} />
+<Route path="/thankyou" element={<Thankyou />} />
     </Routes>
   );
 }
