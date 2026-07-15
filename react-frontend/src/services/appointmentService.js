@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/appointments";
+const API = "https://maitri-ayurveda.onrender.com/api/appointments";
 
 export const bookAppointment = async (appointmentData) => {
   const token = localStorage.getItem("token");

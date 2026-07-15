@@ -1,4 +1,4 @@
-const API = "http://localhost:5000/api/auth";
+const API = "https://maitri-ayurveda.onrender.com/api/auth";
 
 export async function signupUser(name, email, password) {
   const res = await fetch(`${API}/signup`, {
