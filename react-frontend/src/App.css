@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: green;
+}
+
+nav {
+  background-color: #2e7d32;
+  color: white;
+  padding: 15px 30px;
+}
+
+nav h2 {
+  margin: 0;
+}
